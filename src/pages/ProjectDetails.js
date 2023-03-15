@@ -28,7 +28,7 @@ function ProjectDetails() {
       <Card sx={{ width: 500, marginBottom: "200px" }}>
         <CardMedia
           sx={{ height: 400 }}
-          image={project.image}
+          image={process.env.PUBLIC_URL + project.image}
           title={project.name}
         />
         <CardContent sx={{ textAlign: "center" }}>

@@ -13,7 +13,7 @@ function ProjectCard(props) {
       <Card sx={{ maxWidth: 345 , margin: 5 , alignItems: "center"}}>
       <CardMedia
         sx={{ height: 140 }}
-        image={props.image}
+        image={process.env.PUBLIC_URL + props.image}
         title="green iguana"
       />
       <CardContent>

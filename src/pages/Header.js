@@ -11,7 +11,6 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
-import myImage from "../images/headshot1.png";
 import { FaReact } from "react-icons/fa";
 
 const pages = ["Home", "Projects", "Contact"];
@@ -81,9 +80,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <a href="/">
-            <Avatar alt="Henry" src={myImage} style={{ padding: "5px" }} />
-          </a>
+      
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (

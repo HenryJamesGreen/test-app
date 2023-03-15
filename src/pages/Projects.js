@@ -24,7 +24,7 @@ function Projects() {
               id={project.id}
               key={project.id}
               name={project.name}
-              src={project.image}
+              image={project.image}
               deployed={project.deployed}
               repo={project.repo}
             />

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Team profile Generator",
     "description": "An application designed to take user-inputted information about employees on a software engineering team, that then generates an HTML webpage that displays summaries for each person.",
-    "image": "/images/TPG.png",
+    "image": "/public/images/TPG.png",
     "deployed": "",
     "repo": "https://github.com/HenryJamesGreen/henrys-team-profile-generator.git"
   },

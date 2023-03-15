@@ -14,6 +14,7 @@ function Home() {
       }}
     >
       <Card sx={{ width: 400, marginBottom: "100px" }}>
+        <CardMedia sx={{ height: 400 }} image={process.env.PUBLIC_URL + "/images/oldheadshot.jpg"} title="Henry Green" />
         <CardContent sx={{ textAlign: "center" }}>
           <Typography gutterBottom variant="h5" component="div">
             Henry James Green

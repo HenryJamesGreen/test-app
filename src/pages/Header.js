@@ -85,7 +85,7 @@ function ResponsiveAppBar() {
           <a href="/">
             <Avatar
               alt="Henry"
-              src={"/images/headshot1.png"}
+              src={"./images/headshot1.png"}
               style={{ padding: "5px" }}
             />
           </a>

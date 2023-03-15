@@ -20,7 +20,7 @@ function Projects() {
       <Grid container spacing={2} justifyContent="center">
         {projects.map((project) => (
           <Grid item xs={12} sm={6} md={4}>
-            <ProjectCard
+            <ProjectCard 
               id={project.id}
               key={project.id}
               name={project.name}

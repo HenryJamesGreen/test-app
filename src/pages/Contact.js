@@ -10,7 +10,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa";
 
-
 function Contact() {
   return (
     <Box sx={{ flexGrow: 1, m: 1 }}>
@@ -106,7 +105,10 @@ function Contact() {
         style={{ marginTop: "10px", marginBottom: "100px" }}
       >
         <Grid item>
-          <a href="./images/henryjamesgreenresume.pdf" target="_blank">
+          <a
+            href={process.env.PUBLIC_URL + "images/henryjamesgreenresume.pdf"}
+            target="_blank"
+          >
             <FaFilePdf
               className="icons pdf"
               style={{ fontSize: 150, color: "White" }}

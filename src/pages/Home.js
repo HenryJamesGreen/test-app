@@ -30,7 +30,7 @@ function Home() {
             Postgraduate Diploma in Law, as well as participating in a course in
             Frontend Software Development with the Skills for Life organisation,
             I am keen to develop my new-found love of code and embark on a new,
-            fruitful career.
+            fruitful career .
           </Typography>
         </CardContent>
       </Card>

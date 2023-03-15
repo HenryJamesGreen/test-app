@@ -13,6 +13,8 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 import { FaReact } from "react-icons/fa";
 
+
+
 const pages = ["Home", "Projects", "Contact"];
 
 function ResponsiveAppBar() {
@@ -80,7 +82,13 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-       
+          <a href="/">
+            <Avatar
+              alt="Henry"
+              src={process.env.PUBLIC_URL + "/images/headshot1.png"}
+              style={{ padding: "5px" }}
+            />
+          </a>
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
